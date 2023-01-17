@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1483216630 source:h:\other\prog\myradio\zlib\adler32.c
+	"zutil.h"
+
+1483216630 h:\other\prog\myradio\zlib\zutil.h
+	"zlib.h"
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	<alloc.h>
+	<malloc.h>
+	<malloc.h>
+	<unix.h>
+	<stdio.h>
+
+1484461780 h:\other\prog\myradio\zlib\zlib.h
+	"zconf.h"
+
+1483216630 h:\other\prog\myradio\zlib\zconf.h
+	<stddef.h>
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1483216630 source:h:\other\prog\myradio\zlib\compress.c
+	"zlib.h"
+
+1483216630 source:h:\other\prog\myradio\zlib\crc32.c
+	<stdio.h>
+	"zutil.h"
+	"crc32.h"
+
+1335701892 h:\other\prog\myradio\zlib\crc32.h
+
+1484461780 source:h:\other\prog\myradio\zlib\deflate.c
+	"deflate.h"
+
+1483216630 h:\other\prog\myradio\zlib\deflate.h
+	"zutil.h"
+
+1483216630 source:h:\other\prog\myradio\zlib\infback.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+
+1271610926 h:\other\prog\myradio\zlib\inftrees.h
+
+1483216630 h:\other\prog\myradio\zlib\inflate.h
+
+1271610960 h:\other\prog\myradio\zlib\inffast.h
+
+1317832352 h:\other\prog\myradio\zlib\inffixed.h
+
+1484461780 source:h:\other\prog\myradio\zlib\inffast.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+
+1483216630 source:h:\other\prog\myradio\zlib\inflate.c
+	"zutil.h"
+	"inftrees.h"
+	"inflate.h"
+	"inffast.h"
+	"inffixed.h"
+	<stdio.h>
+
+1484461780 source:h:\other\prog\myradio\zlib\inftrees.c
+	"zutil.h"
+	"inftrees.h"
+
+1514140582 source:h:\other\prog\myradio\zlib\main.c
+
+1484460434 source:h:\other\prog\myradio\zlib\trees.c
+	"deflate.h"
+	<ctype.h>
+	"trees.h"
+	<stdio.h>
+
+1271572358 h:\other\prog\myradio\zlib\trees.h
+
+1483163356 source:h:\other\prog\myradio\zlib\uncompr.c
+	"zlib.h"
+
