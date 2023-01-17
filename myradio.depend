@@ -1,0 +1,360 @@
+# depslib dependency file v1.0
+1575640172 source:h:\other\prog\myradio\main.cpp
+	"common.h"
+	"MainApp.h"
+	"config.h"
+	"log.h"
+
+1575302784 source:h:\other\prog\myradio\res\dialog.rc
+	<windows.h>
+	<commctrl.h>
+	"resource.h"
+
+1575302581 h:\other\prog\myradio\res\resource.h
+
+1575301978 source:h:\other\prog\myradio\src\mainapp.cpp
+	"common_dop.h"
+	"action_names.h"
+
+1575301791 h:\other\prog\myradio\include\mainapp.h
+	"common.h"
+	"config.h"
+	"font.h"
+	"skin_main.h"
+	"MainApp_Info.h"
+	"MainApp_Config.h"
+
+1542195546 h:\other\prog\myradio\common.h
+	<windows.h>
+	<tchar.h>
+	<stdio.h>
+	<stdlib.h>
+	<commctrl.h>
+	<Shlobj.h>
+	<math.h>
+	<algorithm>
+	<vector>
+	<map>
+	<string>
+
+1523979907 h:\other\prog\myradio\common_dop.h
+	"resource.h"
+
+1542380112 source:h:\other\prog\myradio\src\config.cpp
+	"config.h"
+	"utils.h"
+
+1575639369 h:\other\prog\myradio\include\config.h
+	"mystring.h"
+
+1518768190 source:h:\other\prog\myradio\src\mystring.cpp
+	"mystring.h"
+	"utils_str.h"
+
+1518768242 h:\other\prog\myradio\include\mystring.h
+	"common.h"
+	"common_dop.h"
+
+1542379854 h:\other\prog\myradio\include\utils.h
+	"common.h"
+	"mystring.h"
+
+1518190312 source:h:\other\prog\myradio\src\font.cpp
+	"font.h"
+
+1518449349 h:\other\prog\myradio\include\font.h
+	"common.h"
+
+1519299525 source:h:\other\prog\myradio\src\myfile.cpp
+	"myfile.h"
+
+1566548891 h:\other\prog\myradio\include\myfile.h
+	"common.h"
+	"mystring.h"
+
+1575298983 h:\other\prog\myradio\include\skin_main.h
+	"common_dop.h"
+	"mystring.h"
+	"myfile.h"
+	"skin_utils.h"
+	"utils.h"
+	"skin_file.h"
+	"utils_str.h"
+	"tinyxml2.h"
+
+1518542127 h:\other\prog\myradio\include\skin_utils.h
+	"common.h"
+
+1518542119 source:h:\other\prog\myradio\src\skin_utils.cpp
+	"skin_utils.h"
+
+1575640060 h:\other\prog\myradio\include\utils_str.h
+	"common.h"
+
+1575640051 source:h:\other\prog\myradio\src\utils_str.cpp
+	"utils_str.h"
+
+1542380096 source:h:\other\prog\myradio\src\utils.cpp
+	"utils.h"
+
+1464345710 h:\other\prog\myradio\include\str_switch.h
+	<string>
+
+1575298977 source:h:\other\prog\myradio\src\skin_main.cpp
+	"skin_main.h"
+
+1566478693 source:h:\other\prog\myradio\src\skin_file.cpp
+	"skin_file.h"
+	"zlib.h"
+
+1519228044 h:\other\prog\myradio\include\skin_file.h
+	"../common.h"
+	"mystring.h"
+	"myfile.h"
+
+1484461780 h:\other\prog\myradio\zlib\zlib.h
+	"zconf.h"
+
+1483216630 h:\other\prog\myradio\zlib\zconf.h
+	<stddef.h>
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1542292178 source:h:\other\prog\myradio\src\mainapp_info.cpp
+	"MainApp_Info.h"
+	"common_dop.h"
+
+1535118888 h:\other\prog\myradio\include\mainapp_info.h
+	"common.h"
+	"config.h"
+	"font.h"
+	"skin_main.h"
+
+1534858637 source:h:\other\prog\myradio\tinyxml2\tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+
+1542200699 h:\other\prog\myradio\tinyxml2\tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1575298345 h:\other\prog\myradio\include\action_names.h
+
+1575301499 h:\other\prog\myradio\include\mainapp_config.h
+	"common.h"
+	"config.h"
+	"font.h"
+
+1575302177 source:h:\other\prog\myradio\src\mainapp_config.cpp
+
+1575640125 h:\other\prog\myradio\include\log.h
+	<stdio.h>
+
+1575642266 source:h:\other\prog\myradio\src\log.cpp
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	"log.h"
+	"utils_str.h"
+
+1575649328 source:e:\cpp\myradio\main.cpp
+	"common.h"
+	"MainApp.h"
+	"config.h"
+	"log.h"
+
+1542195546 e:\cpp\myradio\common.h
+	<windows.h>
+	<tchar.h>
+	<stdio.h>
+	<stdlib.h>
+	<commctrl.h>
+	<Shlobj.h>
+	<math.h>
+	<algorithm>
+	<vector>
+	<map>
+	<string>
+
+1575301791 e:\cpp\myradio\include\mainapp.h
+	"common.h"
+	"config.h"
+	"font.h"
+	"skin_main.h"
+	"MainApp_Info.h"
+	"MainApp_Config.h"
+
+1575639369 e:\cpp\myradio\include\config.h
+	"mystring.h"
+
+1518768242 e:\cpp\myradio\include\mystring.h
+	"common.h"
+	"common_dop.h"
+
+1523979907 e:\cpp\myradio\common_dop.h
+	"resource.h"
+
+1575302581 e:\cpp\myradio\res\resource.h
+
+1518449349 e:\cpp\myradio\include\font.h
+	"common.h"
+
+1575298983 e:\cpp\myradio\include\skin_main.h
+	"common_dop.h"
+	"mystring.h"
+	"myfile.h"
+	"skin_utils.h"
+	"utils.h"
+	"skin_file.h"
+	"utils_str.h"
+	"tinyxml2.h"
+
+1566548891 e:\cpp\myradio\include\myfile.h
+	"common.h"
+	"mystring.h"
+
+1518542127 e:\cpp\myradio\include\skin_utils.h
+	"common.h"
+
+1542379854 e:\cpp\myradio\include\utils.h
+	"common.h"
+	"mystring.h"
+
+1519228044 e:\cpp\myradio\include\skin_file.h
+	"../common.h"
+	"mystring.h"
+	"myfile.h"
+
+1575640060 e:\cpp\myradio\include\utils_str.h
+	"common.h"
+
+1542200699 e:\cpp\myradio\tinyxml2\tinyxml2.h
+	<ctype.h>
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stddef.h>
+	<cctype>
+	<climits>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<stdint.h>
+	<android/log.h>
+	<assert.h>
+
+1535118888 e:\cpp\myradio\include\mainapp_info.h
+	"common.h"
+	"config.h"
+	"font.h"
+	"skin_main.h"
+
+1575301499 e:\cpp\myradio\include\mainapp_config.h
+	"common.h"
+	"config.h"
+	"font.h"
+
+1575640125 e:\cpp\myradio\include\log.h
+	<stdio.h>
+
+1575302784 source:e:\cpp\myradio\res\dialog.rc
+	<windows.h>
+	<commctrl.h>
+	"resource.h"
+
+1575649366 source:e:\cpp\myradio\src\config.cpp
+	"config.h"
+	"utils.h"
+
+1518190312 source:e:\cpp\myradio\src\font.cpp
+	"font.h"
+
+1575642266 source:e:\cpp\myradio\src\log.cpp
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+	"log.h"
+	"utils_str.h"
+
+1575301978 source:e:\cpp\myradio\src\mainapp.cpp
+	"common_dop.h"
+	"action_names.h"
+
+1575298345 e:\cpp\myradio\include\action_names.h
+
+1575302177 source:e:\cpp\myradio\src\mainapp_config.cpp
+
+1542292178 source:e:\cpp\myradio\src\mainapp_info.cpp
+	"MainApp_Info.h"
+	"common_dop.h"
+
+1519299525 source:e:\cpp\myradio\src\myfile.cpp
+	"myfile.h"
+
+1518768190 source:e:\cpp\myradio\src\mystring.cpp
+	"mystring.h"
+	"utils_str.h"
+
+1566478693 source:e:\cpp\myradio\src\skin_file.cpp
+	"skin_file.h"
+	"zlib.h"
+
+1484461780 e:\cpp\myradio\zlib\zlib.h
+	"zconf.h"
+
+1483216630 e:\cpp\myradio\zlib\zconf.h
+	<stddef.h>
+	<windows.h>
+	<limits.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<unistd.h>
+	<unixio.h>
+
+1575298977 source:e:\cpp\myradio\src\skin_main.cpp
+	"skin_main.h"
+
+1518542119 source:e:\cpp\myradio\src\skin_utils.cpp
+	"skin_utils.h"
+
+1542380096 source:e:\cpp\myradio\src\utils.cpp
+	"utils.h"
+
+1575640051 source:e:\cpp\myradio\src\utils_str.cpp
+	"utils_str.h"
+
+1534858637 source:e:\cpp\myradio\tinyxml2\tinyxml2.cpp
+	"tinyxml2.h"
+	<new>
+	<stddef.h>
+	<stdarg.h>
+	<cstddef>
+	<cstdarg>
+

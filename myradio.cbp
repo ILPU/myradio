@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="myradio" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="copy_of_gnu_gcc_compiler_2" />
+		<Option show_notes="0">
+			<notes>
+				<![CDATA[......very long project......]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/myradio" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/Release/myradio" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-flto" />
+					<Add option="-O3" />
+					<Add option="-std=c++11" />
+					<Add option="-m32" />
+					<Add option="-DUNICODE" />
+					<Add directory="include" />
+					<Add directory="src" />
+					<Add directory="zlib" />
+					<Add directory="E:/cpp/myradio/res" />
+					<Add directory="tinyxml2" />
+					<Add directory="src/audio_engine" />
+					<Add directory="include/audio_engine" />
+					<Add directory="E:/cpp/myradio/" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="res" />
+					<Add directory="../myradio" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-flto" />
+					<Add option="-s" />
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add option="-m32" />
+					<Add library="zlib/bin/Release/libzlib.a" />
+					<Add library="libcomctl32.a" />
+					<Add library="libole32.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-lz" />
+		</Compiler>
+		<Linker>
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add library="comctl32" />
+		</Linker>
+		<Unit filename="common.h" />
+		<Unit filename="common_dop.h" />
+		<Unit filename="include/MainApp.h" />
+		<Unit filename="include/MainApp_Config.h" />
+		<Unit filename="include/MainApp_Info.h" />
+		<Unit filename="include/action_names.h" />
+		<Unit filename="include/config.h" />
+		<Unit filename="include/font.h" />
+		<Unit filename="include/log.h" />
+		<Unit filename="include/myfile.h" />
+		<Unit filename="include/mystring.h" />
+		<Unit filename="include/skin_file.h" />
+		<Unit filename="include/skin_main.h" />
+		<Unit filename="include/skin_utils.h" />
+		<Unit filename="include/utils.h" />
+		<Unit filename="include/utils_str.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="res/dialog.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="res/resource.h" />
+		<Unit filename="src/MainApp.cpp" />
+		<Unit filename="src/MainApp_Config.cpp" />
+		<Unit filename="src/MainApp_Info.cpp" />
+		<Unit filename="src/config.cpp" />
+		<Unit filename="src/font.cpp" />
+		<Unit filename="src/log.cpp" />
+		<Unit filename="src/myfile.cpp" />
+		<Unit filename="src/mystring.cpp" />
+		<Unit filename="src/skin_file.cpp" />
+		<Unit filename="src/skin_main.cpp" />
+		<Unit filename="src/skin_utils.cpp" />
+		<Unit filename="src/utils.cpp" />
+		<Unit filename="src/utils_str.cpp" />
+		<Unit filename="tinyxml2/tinyxml2.cpp" />
+		<Unit filename="tinyxml2/tinyxml2.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="" main="" init_handlers="necessary" language="CPP" />
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
